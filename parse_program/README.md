@@ -18,7 +18,7 @@ make
 
 ## To install depedences:
 
-### 1.download Dyninst.deb
+### 1.Download Dyninst.deb
 
 http://www.dyninst.org/downloads/archive/ 
 
