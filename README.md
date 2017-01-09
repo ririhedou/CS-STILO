@@ -13,10 +13,10 @@ parse the program to generate the control flow graph (cfg.dot) and extract all t
 
 ## Step 2: Initialize Transitive Probabilities for HMM
 
-Folder: process_graph:
+Folder: process-graph:
 
 - inpput: the control flow graph 
-- output: transition probabilities matrix   
+- output: transition probability matrix   
 
 
 ## Step 3: Train the HMM with collected traces
@@ -29,7 +29,6 @@ Folder: syscall-context -> used by CMarkov (context sensitive traces)
 For how to collect traces using strace/ltrace based on the SIR project, please refer to 
 [traceCollect](https://github.com/yaoGroupAnomaly/traceCollect)
 
- 
 - input: traces and the initialized model 
 - output: the trained model
 
@@ -40,6 +39,7 @@ Dyninst-8.0
 
 jahmm-0.6.1.jar
 
+graphviz
 
 # Disclaimer
 All implementations are only research prototypes

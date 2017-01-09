@@ -1,0 +1,7 @@
+all: parse
+
+parse: parse.cpp
+	g++ -Wall -Wno-deprecated -o parse parse.cpp -lparseAPI 
+
+clean: 
+	rm parse

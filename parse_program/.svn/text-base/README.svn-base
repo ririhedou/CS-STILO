@@ -1,0 +1,8 @@
+-- to complile:
+make
+
+-- to parse xxx
+
+./run.sh -original xxx
+./run.sh -static xxx
+./run.sh -all xxx
