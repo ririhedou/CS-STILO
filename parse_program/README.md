@@ -60,14 +60,17 @@ At the end, just copy the libdawrf.so into /usr/lib
 sudo dpkg -i libdyninst_8.1.2-1_amd64.deb
 ```
 
-```sudo dpkg -i libdyninst-dev_8.1.2-1_amd64.deb```
+```bash
+sudo dpkg -i libdyninst-dev_8.1.2-1_amd64.deb
+```
 
 In our case, we use dynInst-8.2.1: just follow cmake,make,make install ...
 
 To unistall the dyninst:
 
-```sudo dpkg -r libdyninst```
+```bash
+sudo dpkg -r libdyninst
 
 sudo dpkg -r libdyninst-dev
-
+```
 
