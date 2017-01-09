@@ -18,7 +18,7 @@ make
 
 ## To install depedences:
 
-### 1.Download Dyninst.deb
+### 1.Download dyninst.deb
 
 http://www.dyninst.org/downloads/archive/ 
 
@@ -67,7 +67,7 @@ At the end, just copy the libdawrf.so into /usr/lib
 sudo apt-get install g++
 ```
 
-### 3. Install dynInst
+### 3. Install dyninst
 
 ```bash
 sudo dpkg -i libdyninst_8.1.2-1_amd64.deb
@@ -79,7 +79,7 @@ In our case, we build from the source by using dynInst-8.2.1.
 
 Just follow cmake,make,make install ...
 
-### 4. Unistall the dyninst:
+### 4. Unistall dyninst:
 
 ```bash
 sudo dpkg -r libdyninst
