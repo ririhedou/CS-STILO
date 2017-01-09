@@ -79,7 +79,7 @@ In our case, we build from the source by using dynInst-8.2.1.
 
 Just follow cmake,make,make install ...
 
-To unistall the dyninst:
+## 4. To unistall the dyninst:
 
 ```bash
 sudo dpkg -r libdyninst
