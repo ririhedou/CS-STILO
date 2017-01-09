@@ -3,13 +3,13 @@
 make 
 ```
 
-## Copy the results from the first step.
+## Copy the results from first step.
 ```bash
 ./copy.sh 
 ```
 to copy over the cfg.dot from parse_program/
 
-## Run the code to generate probabilities for HMM:
+## Run the code to generate :
 ```bash
 ./parseGRAPH > report.txt
 ```
