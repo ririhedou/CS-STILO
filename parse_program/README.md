@@ -58,8 +58,9 @@ At the end, just copy the libdawrf.so into /usr/lib
 
 4）g++. wihout g++, you would has the error as:  cc: error trying to exec ‘cc1plus’: execvp: No such file or directory
 
-[code]sudo apt-get install g++
-
+```bash
+sudo apt-get install g++
+```
 
 ### 3. Install dynInst
 
