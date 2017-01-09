@@ -1,16 +1,15 @@
 
 ## To complile the parse function:
-```make```
+make
 
 ## To parse the program xxx using Shell
 
-```
 ./run.sh -original xxx
 
 ./run.sh -static xxx
 
 ./run.sh -all xxx
-```
+
 
 ## To install depedences:
 
