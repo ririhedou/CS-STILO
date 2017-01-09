@@ -23,6 +23,7 @@ Folder: process_graph:
 We use syscall as the example.
 
 Folder: syscall -> used by STILO (context insensitive traces)
+
 Folder: syscall-context -> used by CMarkov (context sensitive traces)
 
 for how to collect traces using strace/ltrace and SIR project, please refer to TraceCollect
@@ -33,6 +34,7 @@ for how to collect traces using strace/ltrace and SIR project, please refer to T
 
 
 # Dependencies:
+
 Dyninst-8.0
+
 jahmm-0.6.1.jar
-------------
