@@ -15,6 +15,7 @@ to copy over the cfg.dot from parse_program/
 ```
 
 ## Test
-Test folder includes a sample output for cfg.dot in original folder. 
+Test folder includes a sample output for cfg.dot in the original folder. 
 
 The initialized transitive probability matrix (transi-prob)
+ and statistic information
