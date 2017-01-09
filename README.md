@@ -41,11 +41,11 @@ Dyninst-8.0
 jahmm-0.6.1.jar
 
 
-## Disclaimer
+# Disclaimer
 All implementations are only research prototypes
 
-## Reference
-if you feel these instructions helpful, citing the papers:
+# Reference
+If you feel these introductions helpful, citing the papers:
 
 ```
 @inproceedings{xu2015probabilistic,
