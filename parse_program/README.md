@@ -10,6 +10,11 @@ make
 
 ./run.sh -all xxx
 
+## To draw the Dot graph
+
+./dot.sh static
+
+./dot.sh original
 
 ## To install depedences:
 
