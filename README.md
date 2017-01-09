@@ -3,7 +3,8 @@ The implementation of STILO (STatically InitiaLized markOv) and its extension CM
 
 ## Step 1: Extract CFG from a program
 
-Folder: parse-program:
+Folder: parse-program with [Instructions](https://github.com/yaoGroupAnomaly/CS-STILO/tree/master/parse_program)
+
 
 - input: executable program
 - output: the control flow graph 
@@ -13,7 +14,7 @@ parse the program to generate the control flow graph (cfg.dot) and extract all t
 
 ## Step 2: Initialize Transitive Probabilities for HMM
 
-Folder: process-graph:
+Folder: process-graph with [Instructions](https://github.com/yaoGroupAnomaly/CS-STILO/tree/master/process_graph)
 
 - inpput: the control flow graph 
 - output: transition probability matrix   
