@@ -1,14 +1,16 @@
 
 ## To complile the parse function:
-make
+```make```
 
 ## To parse the program xxx using Shell
 
+```
 ./run.sh -original xxx
 
 ./run.sh -static xxx
 
 ./run.sh -all xxx
+```
 
 ## To install depedences:
 
@@ -24,15 +26,19 @@ libdyninst_8.1.2-1_amd64.deb and libdyninst-dev_8.1.2-1_amd64.deb
 
 1)boost 
 
-[code]sudo apt-cache search boost
-sudo apt-get install libboost-dev
+```bash
+sudo apt-cache search boost
 
+sudo apt-get install libboost-dev
+```
 
 2)libelf
 
-[code]sudo apt-cache search libelf
-sudo apt-get install libelf-dev
+```bash
+sudo apt-cache search libelf
 
+sudo apt-get install libelf-dev
+```
 
 3)libdwarf.  Please refer:  http://askubuntu.com/questions/502749/install-libdwarf-so-on-ubuntu
 
@@ -40,11 +46,13 @@ Download libdwarf-20130207.tar.gz
 
 Extract the archive and in terminal type:
 
+```bash
 cd dwarf-2013-02-07/libdwarf
 
 ./configure --enable-shared
 
 make
+```
 
 At the end, just copy the libdawrf.so into /usr/lib
 
@@ -58,9 +66,7 @@ At the end, just copy the libdawrf.so into /usr/lib
 
 ```bash
 sudo dpkg -i libdyninst_8.1.2-1_amd64.deb
-```
 
-```bash
 sudo dpkg -i libdyninst-dev_8.1.2-1_amd64.deb
 ```
 
