@@ -26,7 +26,7 @@ Folder: syscall -> used by STILO (context insensitive traces)
 
 Folder: syscall-context -> used by CMarkov (context sensitive traces)
 
-for how to collect traces using strace/ltrace and SIR project, please refer to 
+For how to collect traces using strace/ltrace based on the SIR project, please refer to 
 [traceCollect](https://github.com/yaoGroupAnomaly/traceCollect)
 
  
