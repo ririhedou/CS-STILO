@@ -1,4 +1,4 @@
-# Context-Sensitive HMM
+# HMM with context-sensitive traces
 
 The training and testing covers utility applications and server programs:
 
