@@ -23,7 +23,7 @@ Folder: process-graph with [Instructions](https://github.com/yaoGroupAnomaly/CS-
 ## Step 3: Train the HMM with collected traces
 We use syscall as the example.
 
-Folder: HMM -> used by STILO (context insensitive traces)
+Folder: [HMM](https://github.com/yaoGroupAnomaly/CS-STILO/tree/master/HMM) -> used by STILO (context insensitive traces)
 
 Folder: [HMM-context](https://github.com/yaoGroupAnomaly/CS-STILO/tree/master/HMM-context) -> used by CMarkov (context sensitive traces)
 
