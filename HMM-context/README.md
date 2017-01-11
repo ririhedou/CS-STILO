@@ -13,4 +13,4 @@ Under each program (e.g., grep_v5):
 - lib includes the dependence libraries 
 - src contains the java code for training and testing HMM
 
-## Preprocess-traces
+## Preprocess traces
