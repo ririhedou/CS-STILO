@@ -2,6 +2,7 @@
 
 The training and testing covers utility applications and server programs:
 
+## Programs
 Under each program (e.g., grep_v5):
 
 - strace-sensitive includes pre-processed traces with 1-level calling context 
@@ -12,3 +13,4 @@ Under each program (e.g., grep_v5):
 - lib includes the dependence libraries 
 - src contains the java code for training and testing HMM
 
+## Preprocess-traces
