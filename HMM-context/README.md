@@ -9,5 +9,6 @@ Under each program (e.g., grep_v5):
 - initial: the aggregated call transition matrice
 - intial all: final call transition matrices used later for initializing HMM
 - results/model: output trained model
+- lib includes the dependence libraries 
+- src contains the java code for training and testing HMM
 
-## traces 
