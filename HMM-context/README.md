@@ -14,3 +14,8 @@ Under each program (e.g., grep_v5):
 - src contains the java code for training and testing HMM
 
 ## Preprocess traces
+
+under preprocess
+
+- K-means clustering
+- Principal component analysis (PCA)
