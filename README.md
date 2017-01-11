@@ -36,11 +36,10 @@ For how to collect traces using strace/ltrace based on the SIR project, please r
 
 # Dependencies:
 
-Dyninst-8.0
-
-jahmm-0.6.1.jar
-
-graphviz
+- Dyninst-8.0
+- jahmm-0.6.1.jar
+- graphviz
+- Sklearn
 
 # Disclaimer
 All implementations are only research prototypes
