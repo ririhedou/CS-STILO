@@ -30,7 +30,7 @@ Folder: [HMM-context](https://github.com/yaoGroupAnomaly/CS-STILO/tree/master/HM
 For how to collect traces using strace/ltrace based on the SIR project, please refer to 
 [traceCollect](https://github.com/yaoGroupAnomaly/traceCollect)
 
-- input: traces and the initialized model 
+- input: traces and the initialized probabilities
 - output: the trained model
 
 
