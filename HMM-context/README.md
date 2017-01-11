@@ -15,7 +15,7 @@ Under each program (e.g., grep_v5):
 
 ## Preprocess traces
 
-under preprocess
+under folder preprocess
 
 - K-means clustering
 - Principal component analysis (PCA)
